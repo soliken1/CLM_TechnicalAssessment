@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Toaster, toast } from "react-hot-toast";
 
-const API_URL = "http://34.132.80.69:8000/api/entries";
+const API_URL = "http://34.46.214.179:8000/api/entries";
 const PAGE_SIZE = 5;
 
 function App() {
