@@ -1,1 +1,1 @@
-## Laravel + React Nanme Entry Form
+## Laravel + React Name Entry Form
