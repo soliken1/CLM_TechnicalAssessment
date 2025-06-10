@@ -20,6 +20,7 @@ function App() {
         try {
             const res = await axios.get(API_URL);
             setEntries(res.data.reverse());
+            console.log(res.data.reverse());
         } catch (err) {
             toast.error("Failed to fetch entries");
         }
