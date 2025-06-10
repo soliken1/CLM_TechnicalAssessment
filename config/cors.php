@@ -6,8 +6,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:3000'],
-
+    'allowed_origins' => [
+        'http://34.132.80.69:3000', 
+        'http://localhost:3000'     
+    ],
     'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
